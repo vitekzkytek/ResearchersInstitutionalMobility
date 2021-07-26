@@ -15,21 +15,21 @@ Dataset is available in `./data/dataset_public.csv`. It contains institutional e
 
 The following columns are available in the CSV file:
 
-* organization_name - Organization name by GRID
-* discipline_name - Discipline name (FoR - division level)
-* grid_id - ID from the GRID database
-* discipline_id - Discipline ID
-* number_researchers - number of researchers identified on the organization in 2018
-* pct_insiders - percentage share of insiders (0-100)
-* pct_domesticoutsiders - percentage share of domestic outsiders
-* pct_foreignoutsiders - percentage share of foreign outsiders
-* grid_country_code - organization country (by GRID)
-* established_year - year of establishment (by GRID)
-* country_name 
-* geo_region - geographic region
-* latitude - GPS coordinates from GRID
-* longitude - GPS coordinates from GRID
-* continent
+* `organization_name` - Organization name by GRID
+* `discipline_name` - Discipline name (FoR - division level)
+* `grid_id` - ID from the GRID database
+* `discipline_id` - Discipline ID
+* `number_researchers` - number of researchers identified on the organization in 2018
+* `pct_insiders` - percentage share of insiders (0-100)
+* `pct_domesticoutsiders` - percentage share of domestic outsiders
+* `pct_foreignoutsiders` - percentage share of foreign outsiders
+* `grid_country_code` - organization country (by GRID)
+* `established_year` - organizations' year of establishment (by GRID)
+* `country_name` 
+* `geo_region` - geographic region
+* `latitude` - GPS coordinates from GRID
+* `longitude` - GPS coordinates from GRID
+* `continent`
 
 ## Source codes for generating the dataset
 
