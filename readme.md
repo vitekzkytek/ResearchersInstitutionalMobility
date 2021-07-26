@@ -6,6 +6,31 @@ see the [paper](add link when available)
 
 This repository contains:
 
+1. Public dataset
+2. Source codes for generating the data
+3. Jupyter Notebook with figures and tables
+
+## Public dataset
+Dataset is available in `./data/dataset_public.csv`. It contains institutional estimates on both the aggregate level and individual disciplines
+
+The following columns are available in the CSV file:
+
+* organization_name - Organization name by GRID
+* discipline_name - Discipline name (FoR - division level)
+* grid_id - ID from the GRID database
+* discipline_id - Discipline ID
+* number_researchers - number of researchers identified on the organization in 2018
+* pct_insiders - percentage share of insiders (0-100)
+* pct_domesticoutsiders - percentage share of domestic outsiders
+* pct_foreignoutsiders - percentage share of foreign outsiders
+* grid_country_code - organization country (by GRID)
+* established_year - year of establishment (by GRID)
+* country_name 
+* geo_region - geographic region
+* latitude - GPS coordinates from GRID
+* longitude - GPS coordinates from GRID
+* continent
+
 ## Source codes for generating the dataset
 
 Prerequisities:
@@ -102,15 +127,8 @@ Jupyter Notebook to generate [researchers](./code/02_GenerateDimMobResearcers.ip
 | latitude                | GRID institution latitude                                                                                        |
 | longitude               | GRID institution longitude                                                                                       |
 
-
 ### 4. Filtering Leiden-ranking universities
 The GRID universities were semi-automatically matched with Leiden Ranking universities. The final dataset only includes succesfully matched universities.
-
-
-## Final dataset
-Final dataset is available in `./data/dataset_public.csv`. It contains institutional estimates on both the aggregate level (`for_division` = `All`) and individual disciplines
-
-The column description corresponds to one `dim_mob_organizations` table
 
 ## Figures and tables for the paper
 Notebook with generated figures for the full paper is available `./code/04_Figures_Tables.ipynb`
