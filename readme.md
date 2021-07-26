@@ -108,8 +108,9 @@ The GRID universities were semi-automatically matched with Leiden Ranking univer
 
 
 ## Final dataset
-Final dataset is available in `./data/final_dataset.csv`. It contains institutional estimates on both the aggregate level (`for_division` = `All`) and individual disciplines
+Final dataset is available in `./data/dataset_public.csv`. It contains institutional estimates on both the aggregate level (`for_division` = `All`) and individual disciplines
 
 The column description corresponds to one `dim_mob_organizations` table
 
 ## Figures and tables for the paper
+Notebook with generated figures for the full paper is available `./code/04_Figures_Tables.ipynb`
