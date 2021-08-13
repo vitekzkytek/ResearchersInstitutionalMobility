@@ -8,7 +8,6 @@ This repository contains:
 
 1. Public dataset
 2. Source codes for generating the data
-3. Jupyter Notebook with figures and tables
 
 ## Public dataset
 Dataset is available in `./data/dataset_public.csv`. It contains institutional estimates on both the aggregate level and individual disciplines
@@ -129,6 +128,3 @@ Jupyter Notebook to generate [researchers](./code/02_GenerateDimMobResearcers.ip
 
 ### 4. Filtering Leiden-ranking universities
 The GRID universities were semi-automatically matched with Leiden Ranking universities. The final dataset only includes succesfully matched universities.
-
-## Figures and tables for the paper
-Notebook with generated figures for the full paper is available `./code/04_Figures_Tables.ipynb`
