@@ -2,7 +2,7 @@
 
 paper by: Vít Macháček, Martin Srholec, Márcia R. Ferreira, Nicolas Robinson-Garcia, Rodrigo Costas
 
-see the [paper](add link when available)
+see the [paper](https://doi.org/10.1093/scipol/scab064)
 
 This repository contains:
 
