@@ -1,4 +1,4 @@
-## Column description in `dataset-public.csv`
+## Column description in `dataset_public.csv`
 
 | Column | Description |
 | ------ | ----------- | 
